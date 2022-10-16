@@ -5,10 +5,40 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="/dist/main.css">
 </head>
+
+
 <body>
-    <p>This is a template</p>    
+    <p id="szoveg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nam, beatae ab quisquam reiciendis ipsum delectus praesentium error est quaerat! Deserunt nihil voluptates distinctio nulla minus praesentium corrupti, neque ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt accusantium laborum quos voluptatum explicabo consequatur iusto doloremque illum animi veniam, repellat rem quibusdam laudantium ducimus porro ex minima neque perferendis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi magnam doloremque, eveniet corrupti a hic quis numquam officiis, aliquid dignissimos commodi at vel porro. Blanditiis quaerat fuga quam? Libero, culpa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ab provident laudantium accusamus aliquam esse dicta vel expedita, sed, eum rem tempore, mollitia nulla id quos est! Tenetur, doloremque beatae?</p>
     <script src='main.js'></script>
+    <div class="container align-items-start">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <h3>Kép URL-je:</h3>
+                <input type="url" id="url" placeholder="/tekons.jpg"> 
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <h3>Betüméret pt-ben:</h3>
+                <input type="number" id="meretpt">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <h3>Sorköz mérete em-ben:</h3>
+                <input type="number" id="meretem">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <h3>Betü színe:</h3>
+                <input type="color" id="szin">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <img class="center" id="kep" src="/tekons.jpg" width="150px" style="border: 3px solid black;">
+            </div>
+        </div>
+    </div>
+    <footer>
+        Krity Lőrinc 14/S
+        <button type="button" id="baljobb">bal/jobb</button>
+    </footer>
+
 </body>
 </html>
